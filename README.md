@@ -3,8 +3,8 @@ Example MS MS XML data from Waters TQD
 
 Problem: trouble parsing in heavily nested XML data from liquid chromatography analysis software (Waters TargetLynx)
 
-Solution: trying to create R script that is flexible enough to be applied to XML files of slightly different size, to parse and tidy XML data into R data frame for further analysis. Created list function to unpack XML as list, mutate into data frame. (ReadTQDReport.R)
--> Works for one size XML (DIC.xml) but not more complex data (OffshoreWater.xml)
+Solution: trying to create R script that is flexible enough to be applied to XML files of slightly different size, to parse and tidy XML data into R data frame for further analysis. Using list function to unpack XML as list, mutate into data frame. (ReadTQDReport.R)
+-> Works for one size XML (DIC.xml) but not larger complex data (OffshoreWater.xml)
 
 Repository contents:
 TQD Script = Script to read XML file from TargetLynx into R data frame
